@@ -1,0 +1,80 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background: #cccbcd;
+  touch-action: pan-y;
+  height: 100vh;
+  overflow: auto;
+
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+video {
+  margin-top: -64em;
+  position: fixed;
+  z-index: -10;
+  max-width: 100%;
+
+}
+.scroll-dummy {
+  height: 100%;
+  max-width: 998px;
+  padding: 20px;
+  z-index: 1;
+  font-family: sans-serif;
+  color: #cccbcd;;
+}
+
+.scroll-dummy h1 {
+  font-size: 80px;
+  font-weight: 700;
+  padding: 100px 0;
+  color: #000082;
+}
+
+.scroll-dummy p{
+  font-size: 20px;
+  color:   #cccbcd;
+  line-height: 1.4;
+  margin-left: 0em;
+  margin-right: 31em;
+  text-align: justify;
+}
+
+code {
+  font-family: monospace;
+  background: #333;
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+.scroll-dummy a {
+ margin: auto;  
+ font-size: 20px;
+ color: #000082;
+ line-height: 1.4;
+ text-align: justify;
+ cursor:crosshair;
+}
+
+#different{
+  margin: auto;
+}
+#different2{
+  margin: auto;
+}
+/* #different3{
+  font-size: 0.5em;
+  margin: auto;
+} */
+
+
+.paragraphBorder{
+  border: #000082;
+  border-radius: 8%;
+  border-width: 0.5em;
+}
